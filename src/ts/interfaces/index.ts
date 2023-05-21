@@ -13,3 +13,11 @@ export interface SliderControlsProps {
   // eslint-disable-next-line no-unused-vars
   handleSlide: (action: SliderAction) => void
 }
+
+export interface NftCardProps {
+  size: "large" | "medium" | "small"
+  src: string
+  name: string
+  imagesSrc?: string[]
+  onChangeEffect?: boolean
+}
