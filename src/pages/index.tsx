@@ -3,6 +3,7 @@ import Hero from "@/components/Hero"
 import ScrollTop from "@/components/Buttons/ScrollTop"
 import Info from "@/components/Info"
 import Footer from "@/components/Footer"
+import ContactUs from "@/components/ContactUs"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Info />
+      <ContactUs />
       <Footer />
 
       <ScrollTop />
